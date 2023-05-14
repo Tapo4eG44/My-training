@@ -1,0 +1,23 @@
+html,
+body {
+    height: 100%;
+    line-height: 1;
+}
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.header {
+    height: 100px;
+    background-color:rgb(43, 216, 13);
+}
+.main {
+    background-color:#01033C;
+    flex: 1 1 auto;
+}
+.footer {
+    background-color:rgb(22, 133, 192);
+    height: 100px;
+}
